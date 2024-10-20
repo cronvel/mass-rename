@@ -1,13 +1,13 @@
 {
   "name": "mass-rename",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "node": ">=16.13.0"
   },
   "description": "Mass rename files using regexp and a format syntax",
   "main": "lib/mass-rename.js",
   "bin": {
-    "mass-rename": "./bin/mass-rename"
+    "mass-rename": "bin/mass-rename"
   },
   "scripts": {
     "test": "tea-time -R dot"
