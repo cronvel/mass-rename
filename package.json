@@ -1,0 +1,47 @@
+{
+  "name": "mass-rename",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "description": "Mass rename files using regexp and a format syntax",
+  "main": "lib/mass-rename.js",
+  "bin": {
+    "mass-rename": "./bin/mass-rename"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "fs-kit": "^0.6.5",
+    "string-kit": "^0.18.3",
+    "terminal-kit": "^3.1.1",
+    "utterminal": "^0.7.1"
+  },
+  "keywords": [
+    "rename",
+    "file"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/mass-rename/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "sample"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Mass Rename",
+    "years": [
+      2024
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}
